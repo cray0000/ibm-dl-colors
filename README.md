@@ -12,7 +12,7 @@ body
   background palette(warm-gray, 30) // #b8aeae
 ```
 
-Check out [`colors.styl`](colors.styl) for the whole palette.
+Check out [Swatch Book](http://www.ibm.com/design/language/resources/swatch-book.shtml) and [`colors.styl`](colors.styl) for the whole palette.
 
 ## licence
 

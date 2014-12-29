@@ -3,7 +3,7 @@ ibm-dl-colors
 
 > [IBM Design Language Color Palettes](http://www.ibm.com/design/language/resources/swatch-book.shtml) for Stylus
 
-# Usage
+## Usage
 
 ```stylus
 body
@@ -13,3 +13,7 @@ body
 ```
 
 Check out [`colors.styl`](colors.styl) for the whole palette.
+
+## licence
+
+MIT

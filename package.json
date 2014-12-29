@@ -2,6 +2,10 @@
   "name": "ibm-dl-colors",
   "version": "1.0.0",
   "description": "IBM Design Language Color Palettes for Stylus",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cray0000/ibm-dl-colors"
+  },
   "main": "index.styl",
   "scripts": {
     "test": "mocha test/colors.mocha.js"

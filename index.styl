@@ -1,0 +1,21 @@
+@import './colors'
+
+$ibmDl-originalColors = {
+  '#00f': 'blue'
+  '#008000': 'green'
+  '#008080': 'teal'
+  '#800080': 'purple'
+  '#f0f': 'magenta'
+  '#f00': 'red'
+  '#ffa500': 'orange'
+  '#ff0': 'yellow'
+  '#808080': 'gray'
+  '#000': 'black'
+  '#fff': 'white'
+}
+
+palette(palette, tone = 'core')
+  palette = '' + palette
+  tone = '' + tone
+  color = $ibmDl-originalColors[palette] || palette
+  return $ibmDl-palettes[color][tone]

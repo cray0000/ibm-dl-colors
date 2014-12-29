@@ -1,0 +1,23 @@
+{
+  "name": "ibm-dl-colors",
+  "version": "1.0.0",
+  "description": "IBM Design Language Color Palettes for Stylus",
+  "main": "index.styl",
+  "scripts": {
+    "test": "mocha test/colors.mocha.js"
+  },
+  "keywords": [
+    "ibm",
+    "stylus",
+    "color",
+    "colors",
+    "palette"
+  ],
+  "author": "Pavel Zhukov",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2",
+    "stylus": "^0.49.3"
+  }
+}

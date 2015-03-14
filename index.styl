@@ -1,5 +1,8 @@
 @import './colors'
 
+// Settings
+$ibmDl-shortTones ?= false
+
 $ibmDl-originalColors = {
   '#00f': 'blue'
   '#008000': 'green'
@@ -15,6 +18,14 @@ $ibmDl-originalColors = {
 }
 
 palette(palette, tone = 'core')
+
+  // Handle short tone syntax (1 -> 10, 2 -> 20, ..., 9 -> 90, 0 -> 100)
+  // Since 10 can be in full and short syntax, 0 can be used as a short
+  // form of 100. Or if $ibmDl-shortTones set to true, 10 will resolve to 100
+  if tone is a 'unit' and (tone < 10 or (tone is 10 and $ibmDl-shortTones))
+    tone = 10 if tone is 0
+    tone = tone * 10
+
   palette = '' + palette
   tone = '' + tone
   color = $ibmDl-originalColors[palette] || palette

@@ -1,4 +1,4 @@
-body {
+test {
   blue: #5aaafa;
   green: #8cd211;
   teal: #41d6c3;
@@ -16,4 +16,15 @@ body {
   cool-white: #f0f2f4;
   warm-white: #f7f5f5;
 }
-
+test-short-syntax-1 {
+  blue-short: #5aaafa;
+  green-full: #c8f08f;
+}
+test-short-syntax-2 {
+  green-short: #010200;
+  green-short-2: #010200;
+  green-full: #010200;
+}
+test-short-syntax-3 {
+  green-full: #c8f08f;
+}

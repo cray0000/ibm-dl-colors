@@ -1,19 +1,33 @@
 @import '../..'
 
-body
-  blue: palette(blue, 30)
-  green: palette(green, 30)
-  teal: palette(teal, 30)
-  purple: palette(purple, 30)
-  magenta: palette(magenta, 30)
-  red: palette(red, 30)
-  orange: palette(orange, 30)
-  yellow: palette(yellow, 30)
-  gray: palette(gray, 30)
-  black: palette(black)
-  white: palette(white)
-  cool-gray: palette(cool-gray, 30)
-  warm-gray: palette(warm-gray, 30)
-  neutral-white: palette(neutral-white, 30)
-  cool-white: palette(cool-white, 30)
-  warm-white: palette(warm-white, 30)
+test
+  blue palette(blue, 30)
+  green palette(green, 30)
+  teal palette(teal, 30)
+  purple palette(purple, 30)
+  magenta palette(magenta, 30)
+  red palette(red, 30)
+  orange palette(orange, 30)
+  yellow palette(yellow, 30)
+  gray palette(gray, 30)
+  black palette(black)
+  white palette(white)
+  cool-gray palette(cool-gray, 30)
+  warm-gray palette(warm-gray, 30)
+  neutral-white palette(neutral-white, 30)
+  cool-white palette(cool-white, 30)
+  warm-white palette(warm-white, 30)
+
+test-short-syntax-1
+  blue-short palette(blue, 3)
+  green-full palette(green, 10)
+
+$ibmDl-shortTones = true
+test-short-syntax-2
+  green-short palette(green, 10)
+  green-short-2 palette(green, 0)
+  green-full palette(green, 100)
+
+$ibmDl-shortTones = false
+test-short-syntax-3
+  green-full palette(green, 10)
